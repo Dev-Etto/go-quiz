@@ -13,7 +13,7 @@ Este é um simples jogo de quiz no terminal escrito em Go. O jogo lê perguntas 
 ## Como Jogar
 
 1. Clone este repositório ou baixe o código-fonte.
-2. Certifique-se de que o Go está instalado no seu sistema.
+2. Certifique-se de que o [Go](https://go.dev/doc/) está instalado no seu sistema.
 3. Coloque um arquivo CSV chamado `question_go.csv` no mesmo diretório do programa. O arquivo CSV deve ter o seguinte formato:
    ```
    Pergunta,Opção1,Opção2,Opção3,Opção4,ÍndiceRespostaCorreta
@@ -45,13 +45,14 @@ Este é um simples jogo de quiz no terminal escrito em Go. O jogo lê perguntas 
 
 Este projeto utiliza as seguintes bibliotecas padrão do Go:
 
-- `bufio`: Para leitura de entrada do usuário.
-- `csv`: Para leitura de perguntas do arquivo CSV.
-- `fmt`: Para entrada e saída formatada.
-- `math/rand`: Para embaralhar as perguntas.
-- `os`: Para operações de arquivo e entrada/saída.
-- `strconv`: Para conversão de strings em inteiros.
-- `time`: Para gerenciar o temporizador do jogo.
+- [`bufio`](https://pkg.go.dev/bufio): Para leitura de entrada do usuário.
+- [`encoding/csv`](https://pkg.go.dev/encoding/csv): Para leitura de perguntas do arquivo CSV.
+- [`errors`](https://pkg.go.dev/errors): Para manipulação de erros.
+- [`fmt`](https://pkg.go.dev/fmt): Para entrada e saída formatada.
+- [`math/rand`](https://pkg.go.dev/math/rand): Para embaralhar as perguntas.
+- [`os`](https://pkg.go.dev/os): Para operações de arquivo e entrada/saída.
+- [`strconv`](https://pkg.go.dev/strconv): Para conversão de strings em inteiros.
+- [`time`](https://pkg.go.dev/time): Para gerenciar o temporizador do jogo.
 
 ## Melhorias Futuras
 
@@ -61,4 +62,4 @@ Este projeto utiliza as seguintes bibliotecas padrão do Go:
 
 ## Licença
 
-Este projeto é open-source e está disponível sob a licença MIT.
+Este projeto é open-source e está disponível sob a licença [MIT](./LICENSE).
